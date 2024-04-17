@@ -1,0 +1,67 @@
+:root {
+  background: #222;
+  --color-primary: #44d62c;
+  --color-shadow: #78dd69;
+  --color-text: #d5d5d5;
+  --color-background: #222;
+}
+
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+  padding: ;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+body {
+  color: var(--color-text);
+  font-family: monospace;
+  font-weight: normal;
+  font-size: 16px;
+}
+
+h1 {
+  font-size: 2.8rem;
+}
+h2 {
+  font-size: 2.4rem;
+}
+h3 {
+  font-size: 1.6rem;
+}
+h1,
+h2,
+h3 {
+  font-family: monospace;
+  font-weight: bold;
+}
+p {
+  line-height: 2;
+}
+body {
+  font-size: 2rem;
+}
+@media (min-width: 768px) {
+  html {
+    width: auto;
+    margin: auto 6rem;
+  }
+  h1 {
+    font-size: 4.8rem;
+  }
+  h2 {
+    font-size: 3.8rem;
+  }
+  h3 {
+    font-size: 2.8rem;
+  }
+  h1,
+  h2,
+  h3 {
+    font-family: sans-serif;
+    font-weight: bold;
+  }
+}

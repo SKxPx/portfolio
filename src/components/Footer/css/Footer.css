@@ -1,0 +1,16 @@
+.footer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+  width: auto;
+  margin: 4rem;
+}
+
+.info {
+  color: var(--color-text);
+}
+
+.text-downland {
+  color: var(--color-text);
+}

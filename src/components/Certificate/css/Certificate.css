@@ -1,0 +1,37 @@
+.certificates {
+  margin: 2rem;
+  position: relative;
+}
+
+.title-certificates {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin-bottom: 0;
+}
+
+.ul-certificates {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  padding: 0;
+}
+
+.ul-certificates li {
+  margin: 2rem;
+}
+
+.ul-certificates li a {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  color: var(--color-text);
+}
+
+.img-certificates {
+  margin-bottom: 1rem;
+  height: 5rem;
+  width: 5rem;
+}

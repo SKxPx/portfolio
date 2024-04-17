@@ -1,0 +1,37 @@
+.downland-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.text-downland {
+  display: none;
+}
+
+.downland-CV {
+  text-decoration: none;
+  color: var(--color-text);
+}
+
+.downland {
+  color: var(--color-text);
+  background: var(--color-background);
+  border: solid var(--color-primary);
+  border-radius: 2rem;
+  margin: 0;
+}
+
+.downland:hover {
+  box-shadow: 0px 0px 10px var(--color-shadow);
+  scale: 1.1;
+}
+
+@media (min-width: 768px) {
+  .text-downland {
+    display: block;
+  }
+
+  .downland {
+    margin: 2rem;
+  }
+}

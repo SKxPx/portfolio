@@ -1,0 +1,48 @@
+.title-card,
+.subtitle-card {
+  color: var(--color-primary);
+}
+
+.link {
+    text-decoration: none;
+    color: var(--color-text);
+}
+
+.card-content {
+  height: auto;
+  width: auto;
+  margin: 5rem;
+}
+@media (min-width: 768px) {
+    .card-content {
+        height: auto;
+        width: 70rem;
+      }
+}
+
+.title-card-project {
+    color: var(--color-primary);
+    margin-right: 2rem;
+}
+
+.img-card-project {
+    width: 100%;
+}
+
+@media (min-width: 768px) {
+    .img-card-project {
+      display: block;
+    }
+    
+    .card-content:hover .img-card-project {
+      display: none;
+    }
+    
+    .card-content:hover .p-card {
+      display: block;
+    }
+    
+    .p-card {
+      display: none;
+    }
+}
