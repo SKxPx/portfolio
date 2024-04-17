@@ -1,4 +1,5 @@
 import Skills from "../../components/Skills/Skills";
+import ContactLinks from "../../components/ContactLinks/ContactLinks";
 import "./css/Home.css";
 
 const Home = () => {
@@ -18,34 +19,10 @@ const Home = () => {
             <span>adquirir</span> nuevas habilidades para crecer como
             profesional.
           </p>
-          <ul className="ul">
-            <li className="li">
-              <a
-                className=""
-                href="https://www.linkedin.com/in/sebasti%C3%A1n-castro-pavez/"
-              >
-                <img
-                  className="img-li"
-                  src="src\assets\icons\LinkedIn.png"
-                  alt="LinkedIn"
-                ></img>
-              </a>
-              <span className="span-link">LinkedIn</span>
-            </li>
-            <li className="li">
-              <a className="" href="https://github.com/SKxPx/">
-                <img
-                  className="img-li"
-                  src="src\assets\icons\Github.png"
-                  alt="Github"
-                ></img>
-              </a>
-              <span className="span-link">Github</span>
-            </li>
-          </ul>
+          <ContactLinks />
         </div>
         <img
-          src="src\assets\img\imgProfile.png"
+          src="https://res.cloudinary.com/dp1c36xd0/image/upload/v1713374244/Portfolio%20IMG/img/qq2haypi4z8ruovj6h3z.png"
           alt="imgProfile"
           className="profileImg"
         />

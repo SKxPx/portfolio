@@ -1,0 +1,19 @@
+.ul {
+  display: flex;
+  gap: 2rem;
+  list-style: none;
+  width: auto;
+  .li {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+  .li:hover {
+    filter: drop-shadow(0px 0px 10px var(--color-shadow))
+      drop-shadow(0px 0px 20px var(--color-shadow));
+    transform: scale(1.1);
+  }
+  .img-li {
+    height: 4.4rem;
+  }
+}

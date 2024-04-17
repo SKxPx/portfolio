@@ -10,7 +10,7 @@ const About = () => {
         <div className="content-top">
           <div>
             <img
-              src="src\assets\img\imgProfile.png"
+              src="https://res.cloudinary.com/dp1c36xd0/image/upload/v1713374244/Portfolio%20IMG/img/qq2haypi4z8ruovj6h3z.png"
               alt="img"
               className="img-about-top"
             />
@@ -47,7 +47,7 @@ const About = () => {
           </div>
 
           <img
-            src="src\assets\img\imgProfile.png"
+            src="https://res.cloudinary.com/dp1c36xd0/image/upload/v1713374690/Portfolio%20IMG/img/r93j7vvrql3xiy63u15p.jpg"
             alt="img"
             className="img-about-bot"
           />

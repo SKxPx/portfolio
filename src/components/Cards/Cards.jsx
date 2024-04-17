@@ -13,7 +13,7 @@ const Cards = () => {
               Proyecto Final (Grupal) VehiBuy
             </h3>
             <img
-              src="src\assets\img-projects\VehiBuy.jpg"
+              src="https://res.cloudinary.com/dp1c36xd0/image/upload/v1713374188/Portfolio%20IMG/img-projects/joieneqwyvcd3auab60d.jpg"
               alt="VehiBuy"
               className="img-card-project"
             />
@@ -34,7 +34,7 @@ const Cards = () => {
               Proyecto Final (individual) PI-Food
             </h3>
             <img
-              src="src\assets\img-projects\GitHub-profile.png"
+              src="https://res.cloudinary.com/dp1c36xd0/image/upload/v1713374189/Portfolio%20IMG/img-projects/t1qfc5dl89rr2qx6mr9i.png"
               alt="PI-Food"
               className="img-card-project"
             />
