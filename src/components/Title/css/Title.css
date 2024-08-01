@@ -1,17 +1,18 @@
 typing-effect {
-    font-family: monospace;
+  font-family: monospace;
+  color: var(--color-primary);
+}
+
+typing-effect span[slot="cursor"] {
+  animation: blink 5s step-end infinite;
+}
+
+@keyframes blink {
+  from,
+  to {
+    opacity: 1;
   }
-  
-  typing-effect span[slot="cursor"] {
-    animation: blink 5s step-end infinite;
+  50% {
+    opacity: 0;
   }
-  
-  @keyframes blink {
-    from, to {
-      opacity: 1;
-    }
-    50% {
-      opacity: 0;
-    }
-  }
-  
+}

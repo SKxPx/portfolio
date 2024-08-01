@@ -1,4 +1,5 @@
 import "@github/typing-effect-element";
+import "./css/Title.css"
 
 const Title = () => {
   return (

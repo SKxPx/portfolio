@@ -37,12 +37,19 @@
   width: 7rem;
 }
 
+.inicio {
+  display: block;
+}
+
 .nav-links {
   display: flex;
   flex-direction: column;
 }
 
 @media (min-width: 768px) {
+  .inicio {
+    display: none;
+  }
   .nav-links {
     flex-direction: row;
     justify-content: center;
