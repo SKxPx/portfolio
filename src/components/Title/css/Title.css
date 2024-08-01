@@ -1,0 +1,17 @@
+typing-effect {
+    font-family: monospace;
+  }
+  
+  typing-effect span[slot="cursor"] {
+    animation: blink 5s step-end infinite;
+  }
+  
+  @keyframes blink {
+    from, to {
+      opacity: 1;
+    }
+    50% {
+      opacity: 0;
+    }
+  }
+  

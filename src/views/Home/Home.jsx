@@ -1,5 +1,6 @@
 import Skills from "../../components/Skills/Skills";
 import ContactLinks from "../../components/ContactLinks/ContactLinks";
+import Title from "../../components/Title/Title";
 import "./css/Home.css";
 
 const Home = () => {
@@ -7,16 +8,15 @@ const Home = () => {
     <main>
       <div className="home">
         <div className="content">
-          <div className="animation-container">
-            <h1>
+          <div className="title-container">
+            <h2>
               Hola, Soy <br />
-              <span className="title-span">Sebastián Castro Pavez</span>
-            </h1>
+            </h2>
+            <Title/>
           </div>
           <p className="p">
             <span>Desarrollador web Full-Stack</span> chileno. Siempre estoy en
-            busca de <span>desarrollar</span>, <span>mejorar</span> y
-            <span>adquirir</span> nuevas habilidades para crecer como
+            busca de <span>desarrollar</span>, <span>mejorar</span> y <span>adquirir</span> nuevas habilidades para crecer como
             profesional.
           </p>
           <ContactLinks />
