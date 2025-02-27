@@ -10,13 +10,13 @@ const About = () => {
         <div className="content-top">
           <div>
             <img
-              src="https://res.cloudinary.com/dp1c36xd0/image/upload/v1713374244/Portfolio%20IMG/img/qq2haypi4z8ruovj6h3z.png"
-              alt="img"
+              src="https://res.cloudinary.com/dp1c36xd0/image/upload/v1740696470/img-portfolio/img/hxi3kouv9nsargnjjlwb.webp"
+              alt="img Perfil"
               className="img-about-top"
             />
           </div>
           <p className="pTop">
-            ¡Hola! Soy <span>Sebastián Castro Pavez</span>, un apasionado{" "}
+            ¡Hola! Soy <span>Sebastián Alejandro Pavez Castro</span>, un apasionado{" "}
             <span>Full Stack Web Developer</span>
           </p>
         </div>
@@ -47,8 +47,8 @@ const About = () => {
           </div>
 
           <img
-            src="https://res.cloudinary.com/dp1c36xd0/image/upload/v1713374690/Portfolio%20IMG/img/r93j7vvrql3xiy63u15p.jpg"
-            alt="img"
+            src="https://res.cloudinary.com/dp1c36xd0/image/upload/v1740696469/img-portfolio/img/p7ilev3ipkjybx8qvgut.webp"
+            alt="img perfil 2"
             className="img-about-bot"
           />
         </div>

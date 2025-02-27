@@ -17,7 +17,8 @@
   }
 
   span {
-    position: absolute;
+    position: absolute;filter: drop-shadow(0px 0px 3px var(--color-shadow))
+    drop-shadow(0px 0px 5px var(--color-shadow));
     bottom: -2.5rem;
     left: 50%;
     transform: translateX(-50%);
@@ -51,5 +52,9 @@
     span {
       display: initial;
     }
+  }
+  .img {
+    filter: drop-shadow(0px 0px 1px var(--color-shadow))
+      drop-shadow(0px 0px 1px var(--color-shadow));
   }
 }

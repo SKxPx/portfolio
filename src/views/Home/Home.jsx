@@ -22,7 +22,7 @@ const Home = () => {
           <ContactLinks />
         </div>
         <img
-          src="https://res.cloudinary.com/dp1c36xd0/image/upload/v1713374244/Portfolio%20IMG/img/qq2haypi4z8ruovj6h3z.png"
+          src="https://res.cloudinary.com/dp1c36xd0/image/upload/v1740696470/img-portfolio/img/hxi3kouv9nsargnjjlwb.webp"
           alt="imgProfile"
           className="profileImg"
         />

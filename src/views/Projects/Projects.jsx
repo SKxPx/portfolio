@@ -15,8 +15,8 @@ const Projects = () => {
             <a className="" href="https://github.com/SKxPx/">
               <img
                 className="img-li"
-                src="https://res.cloudinary.com/dp1c36xd0/image/upload/v1713374222/Portfolio%20IMG/icons/lwp07jop978bfl2uamuy.png"
-                alt="Github"
+                src="https://res.cloudinary.com/dp1c36xd0/image/upload/v1740696440/img-portfolio/icons/evlrzjrt1cvoao4m4tuh.webp"
+                alt="logo Github"
               ></img>
             </a>
             <span className="span-link">Github</span>

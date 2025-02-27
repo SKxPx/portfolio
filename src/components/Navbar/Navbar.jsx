@@ -7,8 +7,8 @@ const Navbar = () => {
       <div className="logo">
         <Link to="/">
           <img
-            src="https://res.cloudinary.com/dp1c36xd0/image/upload/v1713374245/Portfolio%20IMG/img/zpjq26f0eraqjjerdxkg.png"
-            alt="logo"
+            src="https://res.cloudinary.com/dp1c36xd0/image/upload/v1740696470/img-portfolio/img/o5inmdiwdowkiox5prdl.webp"
+            alt="logo portfolio"
             className="logo-img"
           />
         </Link>
