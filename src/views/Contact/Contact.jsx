@@ -1,5 +1,5 @@
 import Form from "../../components/Form/Form";
-import Downland from "../../components/Downland/Downland";
+import Download from "../Download/Download";
 import ContactLinks from "../../components/ContactLinks/ContactLinks";
 import "./css/Contact.css";
 
@@ -8,7 +8,7 @@ const Contact = () => {
     <main className="main-contact">
       <div className="contact-top">
         <h1 className="title-contact">Si quieres contactarme:</h1>
-        <Downland />
+        <Download  />
       </div>
       <div className="contact">
         <Form />
