@@ -1,18 +1,18 @@
-import './css/Downland.css'
+import './css/Download.css';
 
-const Downland = () => {
+const Download = () => {
   return (
-    <div className="downland-container">
-        <span className="text-downland">Puedes Descargar mi CV</span>
-        <a
-          href="/assets/cv/Sebastián_Pavez_Castro.pdf"
-          download="Sebastián_Pavez_Castro.pdf"
-          className="downland-CV"
-        >
-          <button className="downland">Descargar CV</button>
-        </a>
-      </div>
-  )
-}
+    <div className="download-container">
+      <span className="text-download">Puedes Descargar mi CV</span>
+      <a
+        href="/assets/cv/Sebastián_Pavez_Castro.pdf"
+        download="Sebastián_Pavez_Castro.pdf"
+        className="download-CV"
+      >
+        <button className="download">Descargar CV</button>
+      </a>
+    </div>
+  );
+};
 
-export default Downland
+export default Download;
