@@ -1,19 +1,19 @@
-.downland-container {
+.download-container {
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.text-downland {
+.text-download {
   display: none;
 }
 
-.downland-CV {
+.download-CV {
   text-decoration: none;
   color: var(--color-text);
 }
 
-.downland {
+.download {
   color: var(--color-text);
   background: var(--color-background);
   border: solid var(--color-primary);
@@ -21,17 +21,17 @@
   margin: 0;
 }
 
-.downland:hover {
+.download:hover {
   box-shadow: 0px 0px 10px var(--color-shadow);
   scale: 1.1;
 }
 
 @media (min-width: 768px) {
-  .text-downland {
+  .text-download {
     display: block;
   }
 
-  .downland {
+  .download {
     margin: 2rem;
   }
 }
