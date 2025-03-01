@@ -1,5 +1,5 @@
 import "./css/Footer.css";
-import Downland from "../Downland/Downland";
+import Downland from "../Download/Downland";
 
 const Footer = () => {
   return (
