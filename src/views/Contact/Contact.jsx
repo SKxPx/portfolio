@@ -1,5 +1,5 @@
 import Form from "../../components/Form/Form";
-import Download from "../Download/Download";
+import Download from "../../components/Download/Download";
 import ContactLinks from "../../components/ContactLinks/ContactLinks";
 import "./css/Contact.css";
 
