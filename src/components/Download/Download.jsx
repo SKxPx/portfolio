@@ -4,7 +4,7 @@ const Download = () => {
   return (
     <div className="download-container">
       <a
-        href="public\assets\cv\Sebastián_Pavez_Castro.pdf"
+        href="/assets/cv/Sebastián_Pavez_Castro.pdf"
         download="Sebastián_Pavez_Castro.pdf"
         className="download-CV"
       >
