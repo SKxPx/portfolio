@@ -5,8 +5,8 @@ const Downland = () => {
     <div className="downland-container">
         <span className="text-downland">Puedes Descargar mi CV</span>
         <a
-          href="/assets/cv/CV.pdf"
-          download="Sebastián_Castro_Pavez.pdf"
+          href="/assets/cv/Sebastián_Pavez_Castro.pdf"
+          download="Sebastián_Pavez_Castro.pdf"
           className="downland-CV"
         >
           <button className="downland">Descargar CV</button>
